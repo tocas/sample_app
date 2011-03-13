@@ -11,7 +11,7 @@ development:
   reconnect: false
   database: sample_app_development
   pool: 5
-  username: root
+  user: test_user
   password: heslo123            
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
@@ -24,7 +24,7 @@ test:
   reconnect: false
   database: sample_app_test
   pool: 5
-  username: root
+  user: test_user
   password: heslo123
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
